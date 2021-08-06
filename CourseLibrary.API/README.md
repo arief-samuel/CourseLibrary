@@ -1,0 +1,13 @@
+- Create Entities Folder
+    - Author.cs
+    - Course.cs
+- Create Data Folder
+    - CourseLibraryContext.cs
+- Add service to container on Startup.cs
+    - AddDbContext<CourseLibraryContext> 
+    - AddScoped Services<ICourseLibraryRepository,CourseLibraryRepository>
+- Create Services Folder
+    - ICourseLibraryRepository.cs
+    - CourseLibraryRepository.cs
+- Update Program.cs
+    - 
